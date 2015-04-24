@@ -1,0 +1,13 @@
+<h1 style="color:AliceBlue">Sign In</h1>
+
+<form action="/session" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label style="color:AliceBlue">Email<br>
+    <input name="user[email]" type="text" style="color:Black"><br>
+  </label><br>
+  <label style="color:AliceBlue">Password<br>
+    <input name="user[password]" type="password" style="color:Black"><br>
+  </label><br>
+  <input type="submit" value="Submit" class="btn btn-success btn btn-success-info">
+</form>
+<button class="btn btn-info">Guest</button>
