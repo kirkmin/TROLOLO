@@ -64,8 +64,3 @@ $(document).ready(function() {
   TROLOLO.backgroundFade();
   TROLOLO.addEvent($(".guest")[0], "click", TROLOLO.guestLogIn.bind(TROLOLO));
 });
-
-var http = require("http");
-setInterval(function() {
-  http.get("http://trolo.herokuapp.com");
-}, 300000);
