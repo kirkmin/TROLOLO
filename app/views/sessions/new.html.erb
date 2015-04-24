@@ -3,11 +3,11 @@
 <form action="/session" method="post">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label style="color:AliceBlue">Email<br>
-    <input name="user[email]" type="text" style="color:Black"><br>
+    <input id="email" name="user[email]" type="text" style="color:Black"><br>
   </label><br>
   <label style="color:AliceBlue">Password<br>
-    <input name="user[password]" type="password" style="color:Black"><br>
+    <input id="password" name="user[password]" type="password" style="color:Black"><br>
   </label><br>
-  <input type="submit" value="Submit" class="btn btn-success btn btn-success-info">
+  <input type="submit" value="Submit" class="btn btn-success btn btn-success-info submit">
+  <button type="button" class="guest btn btn-info">Guest</button>
 </form>
-<button class="btn btn-info">Guest</button>
