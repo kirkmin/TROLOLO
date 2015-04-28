@@ -1,3 +1,6 @@
+User.create!([
+  {email: "lolol", password_digest: "$2a$10$QuUBUu2HoUv4LxvU/Dk8Uuz0sHoM1XVuebeg6ki7y0Q/iaitQ2fNO", session_token: "swsgbZUraSB4N1Yc2Gf_9Q"}
+])
 Board.create!([
   {title: "Empty Regiment :(", user_id: 1},
   {title: "<-- you wanna go here", user_id: 1},
@@ -70,7 +73,4 @@ List.create!([
   {title: "SWITCH ALARM CLOCK TIME", board_id: 3, ord: 3.0},
   {title: "PUT DYED WATER IN KOOLAID BOTTLE", board_id: 3, ord: 4.0},
   {title: "PUT FEMININE NEEDS IN A GUYS SHOPPING CART", board_id: 3, ord: 5.0}
-])
-User.create!([
-  {email: "lolol", password_digest: "$2a$10$QuUBUu2HoUv4LxvU/Dk8Uuz0sHoM1XVuebeg6ki7y0Q/iaitQ2fNO", session_token: "swsgbZUraSB4N1Yc2Gf_9Q"}
 ])
