@@ -20,7 +20,6 @@ TROLOLO.Views.ItemForm = Backbone.View.extend({
       card_id: this.collection.card.id
     };
     this.collection.create(params, { wait: true });
-    console.log("YAYAYAYAYAYAYAYAY")
     this.render();
   }
 });
